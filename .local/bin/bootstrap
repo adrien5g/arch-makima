@@ -1,0 +1,9 @@
+#!/bin/bash
+~/.fehbg &
+picom &
+nm-applet &
+blueman-applet &
+setxkbmap br
+xsetroot -cursor_name left_ptr &
+dunst -config ~/.config/dunst/dunstrc &
+xinput set-prop 'DLL09D9:00 04F3:3146 Touchpad' 'libinput Tapping Enabled' 1
